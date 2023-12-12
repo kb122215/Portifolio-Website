@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="toggle-switch.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Kareemah Bahaadur</h1>
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <label class="toggle-switch">
+          Dark Mode
+          <input type="checkbox" id="dark-mode-toggle" />
+          <div class="toggle-switch-border">
+            <div class="toggle-switch-dot"></div>
+          </div>
+        </label>
+      </div>
+    </header>
+    <section class="bio">
+      <img class="profile-img" src="/Images/Profile pic.png" />
+      <div>
+        <h2>
+          Hello! My Name is Kareemah Bahaadur. I'm a aspiring software engineer.
+        </h2>
+        <p>
+          I'm a self-taught learner creating projects that create a user
+          friendly experience for users. I have experience and interest in web
+          design(HTML, CSS, & JS), programming (Python), and UI/UX design. In my
+          free time I enjoy doing puzzles, learning languages, and reading.
+        </p>
+        <a class="btn" href="#">See my work</a>
+      </div>
+    </section>
+    <section class="recent-work">
+      <h2>Recent Work</h2>
+      <article>
+        <div>
+          <h3>E-commerce Website</h3>
+          <p>
+            Developing an e-commerce website with features for product listing.
+          </p>
+          <strong>In progress</strong>
+          <ul>
+            <li>Product listing and details</li>
+            <li>
+              Consider implementing features like product
+              reviews,recommendations, and order tracking.
+            </li>
+            <li>Shopping cart and checkout</li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+        <img
+          class="article-img"
+          src="Images/roberto-cortese-9tYbOIpVcn4-unsplash.jpg"
+        />
+      </article>
+      <article>
+        <div>
+          <h3>Task Management System</h3>
+          <p>Create a web-based task management application</p>
+          <strong>In progress</strong>
+          <ul>
+            <li>Users can create,update,and delete tasks.</li>
+            <li>Task creation,update,and deletion</li>
+            <li>Due dates,priorities,and labels for tasks</li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+        <img
+        class="article-img"
+        src="Images/joshua-reddekopp-3Oq-AZHQdU0-unsplash.jpg"
+      />
+      </article>
+      <article>
+        <div>
+          <h3>Lanaguage Learning App</h3>
+          <p>
+            A platform that allows users to interact with other YouTube language
+            learners.
+          </p>
+          <strong>In progress</strong>
+          <ul>
+            <li>User profiles and authentication</li>
+            <li>Interactive exercises</li>
+            <li>
+              Consider implementing captions for videos and language learners
+              reading books. Also them helping with lessons and quizzes.
+            </li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+        <img
+          class="article-img"
+          src="Images/alexander-shatov-PHH_0uw9-Qw-unsplash.jpg"
+          alt=""
+        />
+      </article>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/kareemah-bahaadur-7a38a1219/"
+            target="_blank"
+          >
+            LinkedIn
+            <span class="link-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            CV
+            <span class="link-icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/kb122215" target="_blank">
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright"> © 2023 Kareemah Bahaadur</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
